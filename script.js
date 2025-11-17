@@ -6,3 +6,8 @@ console.log("Primer h2:", primerH2.textContent);
 document.querySelectorAll("p").forEach(p => {
     p.textContent = "Texto actualizado dinámicamente";
 });
+
+//EJERCICIO 05
+const img = document.querySelector("img");
+img.src = "imagen2.JPG";
+img.alt = "Imagen cambiada";
